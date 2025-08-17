@@ -1,19 +1,19 @@
-# 🔐 Advanced Password Manager
+#  Advanced Password Manager
 
 A secure, command-line password manager built in Go with advanced cryptographic features, strong password generation, and local encrypted storage.
 
-## ✨ Features
+##  Features
 
-- **🔒 Strong Encryption**: AES-256-GCM encryption with PBKDF2 key derivation
-- **🎲 Smart Password Generation**: Configurable length, character sets, and exclusion rules
-- **📊 Password Analysis**: Real-time strength assessment and scoring
-- **💾 Secure Storage**: Local SQLite database with encrypted data
-- **🖥️ CLI Interface**: Easy-to-use command-line interface
-- **🔍 Search & Management**: Find, update, and organize passwords efficiently
-- **📈 Statistics**: Database insights and usage analytics
-- **🛡️ Security**: Constant-time comparison, memory zeroing, and secure random generation
+- ** Strong Encryption**: AES-256-GCM encryption with PBKDF2 key derivation
+- ** Smart Password Generation**: Configurable length, character sets, and exclusion rules
+- ** Password Analysis**: Real-time strength assessment and scoring
+- ** Secure Storage**: Local SQLite database with encrypted data
+- ** CLI Interface**: Easy-to-use command-line interface
+- ** Search & Management**: Find, update, and organize passwords efficiently
+- ** Statistics**: Database insights and usage analytics
+- **Security**: Constant-time comparison, memory zeroing, and secure random generation
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Go 1.21+ installed
@@ -42,7 +42,7 @@ go build -o password-manager cmd/main.go
 ./password-manager help
 ```
 
-## 📖 Usage Examples
+##  Usage Examples
 
 ### Generate Strong Passwords
 ```bash
@@ -86,7 +86,7 @@ go build -o password-manager cmd/main.go
 ./password-manager stats
 ```
 
-## 🏗️ Project Structure
+##  Project Structure
 
 ```
 password-manager/
@@ -110,7 +110,7 @@ password-manager/
 └── Makefile                 # Build automation
 ```
 
-## 🔐 Security Features
+##  Security Features
 
 ### Encryption
 - **AES-256-GCM**: Authenticated encryption for confidentiality and integrity
@@ -130,7 +130,7 @@ password-manager/
 - **Memory Zeroing**: Sensitive data cleared from memory after use
 - **Constant-Time Comparison**: Prevents timing attacks
 
-## 🧪 Testing
+##  Testing
 
 ### Run All Tests
 ```bash
@@ -152,7 +152,7 @@ go test -race ./...
 go test -bench=. ./...
 ```
 
-## 🛠️ Development
+##  Development
 
 ### Build Commands
 ```bash
@@ -191,7 +191,7 @@ make run
 make clean
 ```
 
-## 📊 Password Generation Options
+##  Password Generation Options
 
 ### Character Sets
 - **Lowercase**: a-z (26 characters)
@@ -206,7 +206,7 @@ make clean
 - **No Repeating**: Prevent consecutive character repetition
 - **Custom Rules**: Advanced pattern matching
 
-## 🔍 Password Strength Analysis
+## Password Strength Analysis
 
 ### Scoring System
 - **0-20**: Very Weak
@@ -222,7 +222,7 @@ make clean
 - **Complexity**: Special characters and numbers
 - **Predictability**: Common patterns reduce score
 
-## 🚨 Important Notes
+##  Important Notes
 
 ### Master Password
 - **Remember your master password!** It cannot be recovered
@@ -240,7 +240,7 @@ make clean
 - **Memory protection** - sensitive data cleared after use
 - **No cloud sync** - complete control over your data
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch
@@ -249,17 +249,17 @@ make clean
 5. Ensure all tests pass
 6. Submit a pull request
 
-## 📝 License
+##  License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - Built with Go's excellent cryptographic libraries
 - Inspired by modern password management best practices
 - Designed for security-conscious developers and users
 
-## 📞 Support
+##  Support
 
 If you encounter issues:
 1. Check the installation guide in `INSTALL.md`
@@ -269,4 +269,4 @@ If you encounter issues:
 
 ---
 
-**🔐 Secure your digital life with Advanced Password Manager!**
+** Secure your digital life with Advanced Password Manager!**
